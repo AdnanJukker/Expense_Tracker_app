@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { Moon, Sun } from 'lucide-react';
 import './Header.css';
 
 export const Header = () => {
@@ -25,7 +26,7 @@ export const Header = () => {
           onClick={toggleTheme}
           aria-label="Toggle dark mode"
         >
-          {theme === 'light' ? '🌙' : '☀️'}
+          {theme === 'light' ? <Moon size={20} strokeWidth={1.5} /> : <Sun size={20} strokeWidth={1.5} />}
         </button>
       </div>
     </header>

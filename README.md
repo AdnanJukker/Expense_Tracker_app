@@ -76,12 +76,13 @@ npm run preview   # Preview the production build locally
 |--------------|----------------------------------|-----|
 | **Build Tool** | Vite                             | Fast dev server, zero-config JS (no TS overhead) |
 | **UI**         | React 18 (Function components + hooks) | Simple, declarative UI |
+| **Icons**      | lucide-react                     | Clean, minimal, consistent SVG icon set that adapts to the theme |
 | **State**      | Context API + `useReducer`       | Scalable state management without prop-drilling or external libraries |
 | **Persistence**| `localStorage` hook              | No backend required, easily swappable for a real database later |
 | **Styling**    | Plain CSS + CSS Custom Properties| No CSS-in-JS runtime cost; theming is trivial |
 | **Charts**     | Hand-rolled bar chart            | Keeps the bundle incredibly small without external chart libraries |
 
-*Total runtime dependencies: just `react` and `react-dom`.*
+*Total runtime dependencies: just `react`, `react-dom`, and `lucide-react`.*
 
 ---
 
