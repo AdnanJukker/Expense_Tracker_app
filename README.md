@@ -26,6 +26,7 @@ This project requires **no backend, no API keys, and no environment variables**.
 - 📊 **Visual Summaries**: View your spending at a glance with top categories, daily averages, and a hand-rolled bar chart.
 - 🔍 **Filter & Search**: Easily filter your expenses by category or search by description.
 - 🎨 **Beautiful UI**: Custom-designed theme using CSS variables (no bloated CSS frameworks).
+- 🌓 **Dark Mode**: Toggle seamlessly between dark and light themes, with preferences saved automatically.
 - 💾 **Local Persistence**: Data is automatically saved to `localStorage` – refresh without losing your data!
 - ⚡ **Lightning Fast**: Built with Vite + React for optimal performance and rapid development.
 
