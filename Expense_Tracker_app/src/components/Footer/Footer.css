@@ -1,0 +1,21 @@
+.footer {
+  margin-top: var(--spacing-6);
+  padding: var(--spacing-4) 0;
+  border-top: 2px dashed var(--color-border);
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--color-ink-soft);
+}
+
+.footer a {
+  color: var(--color-orange);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--color-orange-deep);
+  text-decoration: underline;
+}
